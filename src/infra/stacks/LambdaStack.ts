@@ -25,7 +25,7 @@ export class LambdaStack extends Stack {
     helloLambda.addToRolePolicy(
       new PolicyStatement({
         effect: Effect.ALLOW,
-        actions: ['s3:ListAllMyBuckets', 's3:ListBucket'],
+        actions: ['s3:ListAllMyBuckets', 's3:ListBucsket'],
         resources: ['*'],
       })
     )
